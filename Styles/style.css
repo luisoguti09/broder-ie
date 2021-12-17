@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Imagenes/fondoHeader.jpg);
+    height: 1000px;
+    background-position: center; 
+   background-repeat: no-repeat; 
+   background-size: cover;
+}
+.cont_header{
+  
+   color: white;
+   padding: 2rem;
+   margin-top: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@font-face {
+    font-family: Roomfer;
+    src: url(../Fuentes/Roomfer.ttf);
+  }
+
+
+.cont_header h1{
+    font-family: Roomfer;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.cont_header ul{
+    list-style-type: none;
+   
+}
+.cont_header ul li{
+    display: inline;
+    color: white;
+}
+
+.cont_header a{
+    color: rgba(97, 11, 11, 0.781);
+    font-family:'Almarai', sans-serif;
+    font-size: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.432);
+   padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.cont_header a:hover{
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+
+
+a{
+text-decoration: none;
+}
+/*
+main{
+    height: 80rem;
+    background-color: black;
+}*/
