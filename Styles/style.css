@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -28,7 +29,7 @@ body{
 
 .cont_header h1{
     font-family: Roomfer;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-left: 2rem;
 }
 
@@ -60,8 +61,77 @@ body{
 a{
 text-decoration: none;
 }
-/*
-main{
-    height: 80rem;
+
+.englobador{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22rem;
+
+}
+.descripcion{
+    width: 30rem;
+    font-family:'PT Sans', sans-serif ;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.493);
+
+}
+.vacio{
+    width: 10rem;
+}
+
+.wrapper{
+    display: flex;
     background-color: black;
-}*/
+    padding: 1rem;
+   
+  }
+  .wrapper .static-txt{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
