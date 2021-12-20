@@ -17,9 +17,12 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/7b27addec7.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="arriba.js"></script>
 </head>
 
 <body>
+    <i class="fas fa-angle-up arriba" ></i>
     <header>
         <a name="inicio"></a>
         <div class="cont_header">
@@ -57,9 +60,12 @@
             </div>
         </div>
 
-        <form class="contacto" action="">
+        <div class="espacio"></div>
+
+        <form class="contacto" action="" data-aos="fade-up">
             
-            <div class="titcons"><h2>Consultanos</h2>
+            <div class="titcons">
+                <h2>Consultanos</h2>
             </div>
             <div class="formu">
             <div class="nombre">
@@ -80,9 +86,14 @@
         </form>
 
     </main>
-
-    <footer>
-
+    <div class="espacio" ></div>
+    <footer data-aos="fade-down">
+        <a href=" https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram fa-2x " style="color: rgb(255, 255, 255);"></i></a>
+        <a href="https://facebook.com/" target="_blank">
+            <i class="fab fa-facebook fa-2x" style="color: rgb(255, 255, 255);"> </i></a>
+        <a href="https://api.whatsapp.com/" target="_blank">
+            <i class="fab fa-whatsapp fa-2x" style="color: rgb(255, 255, 255);"></i></a>
     </footer>
 
 
@@ -90,7 +101,9 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            duration:1000
+        });
     </script>
 </body>
 
