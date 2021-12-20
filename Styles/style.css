@@ -6,10 +6,11 @@
 
 body{
     background-image: url(../Imagenes/fondoHeader.jpg);
-    height: 1000px;
+    height: 750px;
     background-position: center; 
    background-repeat: no-repeat; 
    background-size: cover;
+   background-attachment: fixed;
 }
 .cont_header{
   
@@ -30,6 +31,7 @@ body{
 .cont_header h1{
     font-family: Roomfer;
     font-size: 4rem;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.616);
     margin-left: 2rem;
 }
 
@@ -65,7 +67,7 @@ text-decoration: none;
 .englobador{
     display: flex;
     justify-content: space-between;
-    margin-top: 22rem;
+    margin-top: 7rem;
 
 }
 .descripcion{
