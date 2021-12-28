@@ -5,10 +5,9 @@
  */
 package com.broderie.repository;
 
-/**
- *
- * @author Luis
- */
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class EventosTematicosRepo {
     
 }

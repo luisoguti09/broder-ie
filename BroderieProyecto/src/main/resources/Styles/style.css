@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(../Imagenes/fondoHeader.jpg);
+    background-image: url(../Imagenes/fondoHeader4.jpg);
     height: 750px;
     background-position: center; 
    background-repeat: no-repeat; 
@@ -15,7 +15,7 @@ body{
 }
 .cont_header{
   
-   color: white;
+   color: rgba(248, 19, 160, 0.781);
    padding: 2rem;
    margin-top: 1rem;
    display: flex;
@@ -24,15 +24,15 @@ body{
 }
 
 @font-face {
-    font-family: Roomfer;
-    src: url(../Fuentes/Roomfer.ttf);
+    font-family: LovinSummer;
+    src: url(../Fuentes/LovinSummer.ttf);
   }
 
 
 .cont_header h1{
-    font-family: Roomfer;
+    font-family: LovinSummer;
     font-size: 4rem;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.616);
+    text-shadow: 5px 5px rgba(253, 253, 253, 0.808);
     margin-left: 2rem;
 }
 
@@ -45,11 +45,17 @@ body{
     color: white;
 }
 
+@font-face {
+  font-family: Lovelt;
+  src: url(../Fuentes/Lovelt__.ttf);
+}
+
 .cont_header a{
-    color: rgba(97, 11, 11, 0.781);
-    font-family:'Almarai', sans-serif;
-    font-size: 1.3rem;
-    background-color: rgba(255, 255, 255, 0.432);
+    color: rgba(248, 19, 160, 0.781);
+    font-family:CourtsideDemo;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.76);
     padding: 0.5rem;
     margin: 1rem;
     border-radius: 1rem;
@@ -71,18 +77,23 @@ text-decoration: none;
     margin-top: 7rem;
 
 }
+.descripcion p{
+  padding: 0.5rem;
+  font-family:'PT Sans', sans-serif;
+}
 .descripcion{
-    width: 30rem;
-    font-family:'PT Sans', sans-serif ;
+    width: 50rem;
+    font-family:CourtsideDemo ;
+    letter-spacing: 0.2rem;
     color: antiquewhite;
     font-size: 1.5rem;
-    margin-right: 5rem;
+    margin: auto;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.493);
 
 }
 .vacio{
-    width: 10rem;
+    width: 3rem;
 }
 
 .wrapper{
@@ -93,8 +104,9 @@ text-decoration: none;
   }
   .wrapper .static-txt{
     color: #fff;
-    font-size: 60px;
+    font-size:4rem;
     font-weight: 400;
+    padding-top: 0.6rem;
   }
   .wrapper .dynamic-txts{
     margin-left: 15px;
@@ -104,8 +116,8 @@ text-decoration: none;
   }
   .dynamic-txts li{
     list-style: none;
-    color: #FC6D6D;
-    font-size: 60px;
+    color: #c5fc6d;
+    font-size: 4rem;
     font-weight: 500;
     position: relative;
     top: 0;
@@ -125,10 +137,10 @@ text-decoration: none;
     content: "";
     position: absolute;
     left: 0;
-    height: 100%;
+    height: 130%;
     width: 100%;
     background: black;
-    border-left: 2px solid #FC6D6D;
+    border-left: 2px solid rgba(248, 19, 160, 0.781);
     animation: typing 3s steps(10) infinite;
   }
   @keyframes typing {
@@ -163,7 +175,12 @@ text-decoration: none;
     margin-left: 5rem ;
 
   }
+  @font-face {
+    font-family:CourtsideDemo;
+    src: url(../Fuentes/CourtsideDemo.ttf);
+  }
   .titcons{
+    font-family:CourtsideDemo;
     font-size: 2rem;
     grid-area: titconsul;
     margin-left: 5rem;
@@ -208,7 +225,7 @@ text-decoration: none;
     cursor: pointer;
   }
   .enviar:hover{
-    background-color: rgba(97, 11, 11, 0.781);
+    background-color: rgba(248, 19, 160, 0.781);
   }
 
   input{
