@@ -5,10 +5,11 @@
  */
 package com.broderie.repository;
 
-/**
- *
- * @author Luis
- */
-public class InstitucionalesRepo {
+import com.broderie.demo.entidades.Institucionales;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface InstitucionalesRepo extends JpaRepository<Institucionales, String>  {
     
 }

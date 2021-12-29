@@ -5,10 +5,9 @@
  */
 package com.broderie.controllers;
 
-/**
- *
- * @author Luis
- */
+import org.springframework.stereotype.Controller;
+
+@Controller
 public class PlanningController {
     
 }

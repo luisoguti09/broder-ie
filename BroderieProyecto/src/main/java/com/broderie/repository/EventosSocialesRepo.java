@@ -5,10 +5,13 @@
  */
 package com.broderie.repository;
 
-/**
- *
- * @author Luis
- */
-public class EventosSocialesRepo {
+import com.broderie.demo.entidades.EventosSociales;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+
+
+@Repository
+public interface EventosSocialesRepo extends JpaRepository<EventosSociales,String> {
     
 }

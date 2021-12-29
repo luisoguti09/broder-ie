@@ -5,10 +5,11 @@
  */
 package com.broderie.repository;
 
-/**
- *
- * @author Luis
- */
-public class EventosTematicosRepo {
+import com.broderie.demo.entidades.EventosTematicos;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface EventosTematicosRepo extends JpaRepository<EventosTematicos, String> {
     
 }

@@ -6,7 +6,11 @@
 }
 
 body{
+<<<<<<< HEAD
   background-image: url(../Imagenes/fondoHeader4.jpeg);
+=======
+  background-image: url(../Imagenes/fondoHeader4.jpg);
+>>>>>>> 31ab8f4795adb84e65e0bcd83675bd4cf3695f50
   height: 750px;
   background-position: center; 
  background-repeat: no-repeat; 

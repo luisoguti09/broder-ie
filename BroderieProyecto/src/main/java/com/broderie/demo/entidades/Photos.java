@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.broderie.demo.entidades;
 
 import javax.persistence.Entity;
@@ -10,18 +6,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import org.hibernate.annotations.GenericGenerator;
 
-/**
- *
- * @author Luis
- */
+
 @Entity
-public class Institucionales {
+public class Photos {
+    
     @Id
     @GeneratedValue(generator="uuid")
     @GenericGenerator(name= "uuid", strategy="uuid2")
     private String id;
     private String nombre;
-    private Photos foto;
+    private String mimo;
+    private byte[]contenido;
 
     public String getId() {
         return id;
@@ -39,13 +34,22 @@ public class Institucionales {
         this.nombre = nombre;
     }
 
-    public Photos getFoto() {
-        return foto;
+    public String getMimo() {
+        return mimo;
     }
 
-    public void setFoto(Photos foto) {
-        this.foto = foto;
+    public void setMimo(String mimo) {
+        this.mimo = mimo;
     }
+
+    public byte[] getContenido() {
+        return contenido;
+    }
+
+    public void setContenido(byte[] contenido) {
+        this.contenido = contenido;
+    }
+    
     
     
     
