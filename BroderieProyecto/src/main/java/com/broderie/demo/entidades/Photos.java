@@ -17,5 +17,40 @@ public class Photos {
     private String nombre;
     private String mimo;
     private byte[]contenido;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getMimo() {
+        return mimo;
+    }
+
+    public void setMimo(String mimo) {
+        this.mimo = mimo;
+    }
+
+    public byte[] getContenido() {
+        return contenido;
+    }
+
+    public void setContenido(byte[] contenido) {
+        this.contenido = contenido;
+    }
+    
+    
+    
     
 }

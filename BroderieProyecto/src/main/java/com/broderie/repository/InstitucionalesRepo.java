@@ -5,9 +5,11 @@
  */
 package com.broderie.repository;
 
+import com.broderie.demo.entidades.Institucionales;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class InstitucionalesRepo {
+public interface InstitucionalesRepo extends JpaRepository<Institucionales, String>  {
     
 }

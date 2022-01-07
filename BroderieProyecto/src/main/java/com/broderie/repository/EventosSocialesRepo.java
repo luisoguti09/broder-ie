@@ -5,11 +5,13 @@
  */
 package com.broderie.repository;
 
+import com.broderie.demo.entidades.EventosSociales;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 
 
 @Repository
-public class EventosSocialesRepo {
+public interface EventosSocialesRepo extends JpaRepository<EventosSociales,String> {
     
 }
