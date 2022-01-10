@@ -7,7 +7,6 @@
 
 body{
 
-
   background-image: url(../Imagenes/fondoHeader4.jpg);
 
   height: 750px;
@@ -278,7 +277,6 @@ footer a{
 .nav2{
 	display: none !important;
 }
-
 
 /*EVENTOS*/
 .subt{
