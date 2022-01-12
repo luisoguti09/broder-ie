@@ -8,7 +8,6 @@ package com.broderie2.broderie2.services;
 import com.broderie2.broderie2.Exception.ExceptionBroderie;
 import com.broderie2.broderie2.entidades.Institucionales;
 import com.broderie2.broderie2.entidades.Photos;
-import com.broderie2.broderie2.repository.EventosSocialesRepo;
 import com.broderie2.broderie2.repository.InstitucionalesRepo;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
