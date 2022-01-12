@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 
 <head>
 
@@ -87,8 +87,12 @@
         <div class="subt">
             <h2 >Institucionales</h2>
         </div>
-        <ul>
-            <li></li>
+        <ul th:each="institucional : ${institucionales}">
+            <li>
+                <img th:src="${institucional.foto}"  ></img>
+                <h3 th:text="${institucional.nombre}"></h3>
+            </li>
+            
         </ul>
     </main>
 
